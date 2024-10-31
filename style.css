@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #0A1C2F;
+    margin: 0;
+    color: #fff;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input, button {
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #FFDB00;
+    color: #0A1C2F;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#downloadLink {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #0A1C2F;
+    background-color: #FFDB00;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#logContainer {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 80%;
+    color: #ccc;
+    background-color: #1C2D3F;
+    border-radius: 5px;
+    white-space: pre-wrap; /* Preserve whitespace */
+    font-family: monospace; /* Monospaced font for readability */
+}

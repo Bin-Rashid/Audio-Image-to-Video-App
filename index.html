@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AudioBook Maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>AudioBook Maker</h1>
+    <input type="file" id="imageUpload" accept="image/*">
+    <input type="file" id="audioUpload" accept="audio/*">
+    <button id="createVideoButton">Create Video</button>
+    <a id="downloadLink" style="display: none;">Download Video</a>
+    <div id="logContainer"></div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@ffmpeg/ffmpeg@0.11.5/dist/ffmpeg.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
